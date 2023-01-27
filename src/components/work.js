@@ -5,19 +5,19 @@ import Footer from "./footer";
 
 const Work = () => {
 
-    return (
-        <div className="h-screen mt-36">
+    return (<div className="h-screen mt-36">
 
             <h5 className="text-xl py-1 mb-12 border-t border-black" id={"work"}>Work</h5>
 
 
             <Onework name={"Weather Chatbot"} type={"Development, API"}
-                     desc={"Online store to post or purchase used items. Built with Angular, Express, and MongoDB. "}
+                     desc={"Online store to post or purchase used items, with features including inventory management, " +
+                         "order tracking, and payment processing. Built with Angular, Material UI, Express, and MongoDB. "}
                      position="left"
                      background={require("../image/p1.png")}>University <br/> MarketPlace</Onework>
 
             <Onework name={"University Marketplace"} type={"Development, Full-stack"}
-                     desc={"An API that can respond to natual language weather questions. built with express, mongodb, and python."}
+                     desc={"An API that can respond to natual language weather questions. built with Express, MongoDB, and Python."}
                      position={"right"}
                      background={require("../image/p2.png")}>Weather Bot <br/> API </Onework>
 
@@ -27,8 +27,7 @@ const Work = () => {
                      background={require("../image/p3.png")}>Campus <br/> Event Planner </Onework>
 
             <Footer></Footer>
-        </div>
-    )
+        </div>)
 }
 
 export default Work;

@@ -24,7 +24,7 @@ const Nav = () => {
 
     return (
         <div
-            className={"z-[10000] transition-all flex text-xl py-4 md:px-12 px-4 fixed w-full border-black backdrop-blur-lg bg-white/50  " + hState}>
+            className={"z-[10000] transition-all flex text-xl py-4 md:px-12 px-4 fixed w-full border-black backdrop-blur-lg bg-white/70  " + hState}>
             <div className="basis-1/3 shrink-0 grow"><h1>Dannong Wang </h1></div>
 
             <div className="md:basis-1/3 grow shrink-0 flex flex-row">
