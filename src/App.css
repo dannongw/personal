@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.gra {
+  background-color:#99ecff;
+  background-image:
+          radial-gradient(at 14% 97%, hsla(68,71%,64%,1) 0px, transparent 50%),
+          radial-gradient(at 34% 55%, hsla(227,71%,79%,1) 0px, transparent 50%),
+          radial-gradient(at 53% 28%, hsla(32,75%,65%,1) 0px, transparent 50%),
+          radial-gradient(at 20% 71%, hsla(340,86%,66%,1) 0px, transparent 50%),
+          radial-gradient(at 89% 6%, hsla(132,71%,74%,1) 0px, transparent 50%),
+          radial-gradient(at 49% 73%, hsla(316,90%,79%,1) 0px, transparent 50%),
+          radial-gradient(at 18% 78%, hsla(89,93%,72%,1) 0px, transparent 50%);
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y2="100%" gradientTransform="rotate(178 .5 .5)">
+      <stop stop-color="hsl(212, 72%, 59%)" offset="0"/>
+      <stop stop-color="hsl(227, 100%, 50%)" offset="1"/>
+    </linearGradient>
+    <filter id="b" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feTurbulence x="0%" y="0%" width="100%" height="100%" baseFrequency="0.003 0.003" numOctaves="2" result="turbulence" seed="257" stitchTiles="stitch" type="fractalNoise"/>
+      <feGaussianBlur x="0%" y="0%" width="100%" height="100%" edgeMode="duplicate" in="turbulence" result="blur" stdDeviation="40 0"/>
+      <feBlend x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" in2="blur" mode="color-dodge" result="blend"/>
+    </filter>
+  </defs>
+  <rect width="700" height="700" fill="url(#a)" filter="url(#b)"/>
+</svg>

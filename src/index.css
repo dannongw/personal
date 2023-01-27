@@ -1,7 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'montreal';
+  src: local('montreal'), url(./fonts/PPNeueMontreal-Bold.otf) format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montreal';
+  src: local('montreal'), url(./fonts/PPNeueMontreal-Book.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montreal';
+  src: local('montreal'), url(./fonts/PPNeueMontreal-SemiBolditalic.otf) format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'montreal';
+  src: local('montreal'), url(./fonts/PPNeueMontreal-Italic.otf) format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: montreal, 'Helvetica Neue', 'Helvetica', -apple-system,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +42,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-weight: normal;
 }
