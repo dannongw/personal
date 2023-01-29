@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'montreal';
-  src: local('montreal'), url(./fonts/PPNeueMontreal-Bold.otf) format('opentype');
+  src: local('montreal'), url(./fonts/PPNeueMontreal-Medium.otf) format('opentype');
   font-weight: bold;
   font-style: normal;
 }

@@ -9,7 +9,7 @@ function App() {
         <>
             <Nav/>
 
-            <div className="md:mx-12 mx-4">
+            <div className="md:mx-12 mx-4 min-[2000px]:mx-36">
                 <Intro/>
                 <Work/>
 
